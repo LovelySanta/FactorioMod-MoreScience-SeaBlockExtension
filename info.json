@@ -1,0 +1,17 @@
+{
+  "name": "MoreScience-SeaBlockExtension",
+  "version": "0.1.0",
+  "factorio_version": "0.16",
+  "title": "More Science - Sea Block extension",
+  "author": "lovely_santa",
+  "homepage": "https://mods.factorio.com/mod/MoreScience-SeaBlockExtension",
+  "description": "An extension to seablock: Change the way science is beiing made.",
+  "dependencies": [
+    "MoreScience >= 0.1.9",
+    "MoreScience-BobAngelsExtension",
+    "MoreScience-ScienceCostTweakerExtension",
+    "MoreScience-SpaceExtension",
+
+    "SeaBlockMetaPack"
+  ]
+}
