@@ -37,20 +37,21 @@ MoreScience.lib.technology.addRecipeUnlock("fluid-handling", "copper-pipe-to-gro
 
 -- startup requiring lab-burner instead of lab
 MoreScience.lib.technology.removeRecipeUnlock("bio-wood-processing", "lab")
+MoreScience.lib.technology.addRecipeUnlock("sct-lab-t1", "lab")
 MoreScience.lib.technology.removeRecipeUnlock("bio-wood-processing", "sct-lab1-construction")
+MoreScience.lib.technology.removeRecipeUnlock("sct-lab-t1", "sct-lab1-construction")
 MoreScience.lib.technology.removeRecipeUnlock("bio-wood-processing", "sct-lab1-mechanization")
+MoreScience.lib.technology.removeRecipeUnlock("sct-lab-t1", "sct-lab1-mechanization")
 MoreScience.lib.technology.addRecipeUnlock("bio-wood-processing", "lab-burner")
+MoreScience.lib.recipe.disable("lab-burner")
 MoreScience.lib.technology.removeRecipeUnlock("sb-startup4", "boiler")
 MoreScience.lib.technology.addRecipeUnlock("bio-wood-processing", "boiler")
-if mods["ScienceCostTweakerM"] then
-  MoreScience.lib.technology.addRecipeUnlock("sct-lab-t1", "lab")
-  MoreScience.lib.technology.removeRecipeUnlock("sct-lab-t1", "sct-lab1-construction")
-  MoreScience.lib.technology.removeRecipeUnlock("sct-lab-t1", "sct-lab1-mechanization")
-else
-  MoreScience.lib.technology.addRecipeUnlock("basic-automation", "lab")
-  MoreScience.lib.technology.removeRecipeUnlock("basic-automation", "sct-lab1-construction")
-  MoreScience.lib.technology.removeRecipeUnlock("basic-automation", "sct-lab1-mechanization")
-end
+
+MoreScience.lib.recipe.disable("science-pack-1")
+MoreScience.lib.technology.addRecipeUnlock("sb-startup4", "sct-t1-ironcore")
+MoreScience.lib.recipe.disable("sct-t1-ironcore")
+MoreScience.lib.technology.addRecipeUnlock("sb-startup4", "sct-t1-magnet-coils")
+MoreScience.lib.recipe.disable("sct-t1-magnet-coils")
 
 MoreScience.lib.technology.removeRecipeUnlock("advanced-research-3", "lab-2")
 
