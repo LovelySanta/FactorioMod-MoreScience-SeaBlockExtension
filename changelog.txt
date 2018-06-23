@@ -1,0 +1,13 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 21. 6. 2018
+  Changes:
+    - Changed the recipe for saw since it required too much iron for making a power loop
+  Fixes:
+    - Fixed that electromagnetic lab wasn't unlocking the ingredients for the recipe
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0 - Limited test release
+Date: 19. 6. 2018
+  Major Features:
+    - Initial test release
+    - Fluids require SCT ingredients instead of science packs

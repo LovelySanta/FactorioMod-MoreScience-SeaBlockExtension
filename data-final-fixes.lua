@@ -30,18 +30,18 @@ if data.raw["technology"]["sb-startup4"] and (not data.raw["technology"]["sb-sta
 end
 
 -- move underground pipes back to fluid handing
-MoreScience.lib.technology.removeRecipeUnlock("sb-startup2", "pipe-to-ground")
-MoreScience.lib.technology.addRecipeUnlock("fluid-handling", "pipe-to-ground")
-MoreScience.lib.technology.removeRecipeUnlock("sb-startup2", "copper-pipe-to-ground")
-MoreScience.lib.technology.addRecipeUnlock("fluid-handling", "copper-pipe-to-ground")
+--MoreScience.lib.technology.removeRecipeUnlock("sb-startup2", "pipe-to-ground")
+--MoreScience.lib.technology.addRecipeUnlock("fluid-handling", "pipe-to-ground")
+--MoreScience.lib.technology.removeRecipeUnlock("sb-startup2", "copper-pipe-to-ground")
+--MoreScience.lib.technology.addRecipeUnlock("fluid-handling", "copper-pipe-to-ground")
 
 -- startup requiring lab-burner instead of lab
 MoreScience.lib.technology.removeRecipeUnlock("bio-wood-processing", "lab")
 MoreScience.lib.technology.addRecipeUnlock("sct-lab-t1", "lab")
 MoreScience.lib.technology.removeRecipeUnlock("bio-wood-processing", "sct-lab1-construction")
-MoreScience.lib.technology.removeRecipeUnlock("sct-lab-t1", "sct-lab1-construction")
+MoreScience.lib.technology.addRecipeUnlock("sct-lab-t1", "sct-lab1-construction")
 MoreScience.lib.technology.removeRecipeUnlock("bio-wood-processing", "sct-lab1-mechanization")
-MoreScience.lib.technology.removeRecipeUnlock("sct-lab-t1", "sct-lab1-mechanization")
+MoreScience.lib.technology.addRecipeUnlock("sct-lab-t1", "sct-lab1-mechanization")
 MoreScience.lib.technology.addRecipeUnlock("bio-wood-processing", "lab-burner")
 MoreScience.lib.recipe.disable("lab-burner")
 MoreScience.lib.technology.removeRecipeUnlock("sb-startup4", "boiler")
