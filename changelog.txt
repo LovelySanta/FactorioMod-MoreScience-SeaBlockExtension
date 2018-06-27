@@ -1,8 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 27. 6. 2018
-  Feature:
-    Added mod option to change game speed so you don't lose your achievements by using commands.
+  Features:
+    - Added mod option to change game speed so you don't lose your achievements by using commands.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 21. 6. 2018
