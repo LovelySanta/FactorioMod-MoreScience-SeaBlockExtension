@@ -47,6 +47,7 @@ MoreScience.lib.recipe.disable("lab-burner")
 MoreScience.lib.technology.removeRecipeUnlock("sb-startup4", "boiler")
 MoreScience.lib.technology.addRecipeUnlock("bio-wood-processing", "boiler")
 
+MoreScience.lib.technology.addRecipeUnlock("sb-startup4", "science-pack-1")
 MoreScience.lib.recipe.disable("science-pack-1")
 MoreScience.lib.technology.addRecipeUnlock("sb-startup4", "sct-t1-ironcore")
 MoreScience.lib.recipe.disable("sct-t1-ironcore")
