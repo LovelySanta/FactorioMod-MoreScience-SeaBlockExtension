@@ -3,6 +3,7 @@ This mod changes the technology tree. The research dependencies are still the sa
 # Extension
 This mod is an extension to the [More Science](https://mods.factorio.com/mod/MoreScience) to make seablock modpack work together with MoreScience.
 This mod requires the mod More Science installed and some additional extensions:
+
 + [More Science - BobAngels Extension](https://mods.factorio.com/mod/MoreScience-BobAngelsExtension)
 + [More Science - ScienceCostTweaker Extension](https://mods.factorio.com/mod/MoreScience-ScienceCostTweakerExtension)
 + [More Science - Space Extension](https://mods.factorio.com/mod/MoreScience-SpaceExtension)
